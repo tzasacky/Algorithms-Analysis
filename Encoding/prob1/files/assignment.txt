@@ -1,0 +1,11 @@
+For this problem, you will implement both fixed-length and variable-length encoding schemes, and
+compare their compression rates on two different input files.
+You are given two data files: random.txt, and assignment.txt. Both files contain the same
+number of characters, but with different distributions. The file assignment.txt contains the text
+of this assignment part B, whereas random.txt contains characters randomly selected from along
+upper- and lower-case letters (ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz), numbers (0123456789), 
+spaces, and the characters , . - ~ ( ) { } " ' @ # % ^ & * + / \ \n.
+You will implement three encoding schemes. For each scheme, encoding is done by looking up
+each character in a table, and replacing that character with a given sequence of bits. To keep it easy
+to compare and reason about the results, each encoder will generate a string of 0s and 1s, rather than
+actual binary output. This will make it easiest for you to compare the lengths of the encoded strings.

@@ -1,0 +1,9 @@
+COMP 550 Homework 2(B)
+Name: Tye Zasacky
+Onyen: tzasacky
+PID: 720514904
+Collaboration Statement: Piazza, no direct collaborators
+Note: had to switch fibonacci to long, because >= 47 was over the max value of int
+1a) First recursive fib to take >10s: n = 47
+1b) Memoized fib time for n = 47: 0.389 milliseconds
+1c) BottomUp fib time for n = 47: 0.408 milliseconds
